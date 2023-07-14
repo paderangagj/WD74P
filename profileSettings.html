@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/94175543d4.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="topnav">
+            <ul>
+
+                <li>
+                    <div>
+                        <button class="openbtn" onclick="openNav()">&#9776;</button>
+                    </div>
+                    <div class="logo">
+                        <img src="/img/SABIC-LOGO_tcm1010-14323.svg" alt="" srcset="">
+                    </div>
+
+
+                </li>
+
+
+                <li>
+                    <div>
+                        <input type="search" placeholder="Search" name="" id="">
+                        <button class="btn-search" type="button"><i
+                                class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+                    </div>
+                    <div class="a-icon hide-mini">
+                        <a href="home.html"><i class="fa-sharp fa-solid fa-house"></i></a>
+                    </div>
+                    <div class=" a-icon hide-mini">
+                        <a href="news.html"><i class="fa-sharp fa-solid fa-newspaper"></i></a>
+
+                    </div>
+                    <div class=" a-icon hide-mini">
+                        <a href="notification.html"><i class="fa-solid fa-bell"></i></a>
+                    </div>
+
+                    <div class="dropdown">
+                        <a class="dropbtn">
+                            <img class="profile-thmb" src="img/136115789_a40f_2.jpg" alt="" srcset="">
+                            <p class="profile-label"><b>Gary Paderanga</b><br>Administrator</p>
+                        </a>
+                        <div class="dropdown-content">
+                            <!-- <div class="show-mini"> -->
+                            <a class="show-mini" href="home.html"><i class="fa-sharp fa-solid fa-house"></i>Home</a>
+                            <a class="show-mini" href="news.html"><i class="fa-sharp fa-solid fa-newspaper"></i>News</a>
+                            <a class="show-mini" href="notification.html"><i class="fa-solid fa-bell"></i>
+                                Notification</a>
+
+                            <!-- </div> -->
+                            <a href="profileSettings.html"><i class="fa-solid fa-gear"></i>Profile Settings</a>
+                            <a href="index.html"><i class="fa-solid fa-power-off"></i> Log Out</a>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <!-- sidepanel -->
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#"><i class="fa-solid fa-computer"></i>Computing Services</a>
+                <a href="#"><i class="fa-solid fa-business-time"></i>Busines Application</a>
+                <a href="#"><i class="fa-solid fa-headset"></i>Conferencing Services</a>
+                <a href="#"><i class="fa-solid fa-list"></i>ERP Services</a>
+                <a href="#"><i class="fa-solid fa-house"></i>Work From Home</a>
+                <hr>
+                <a href="feeback.html">Send Feeback</a>
+            </div>
+            <!-- sidepanel -->
+
+            <div class="profile-page">
+                <div class="upload-img">
+                    <div>
+                        <h4>Gary Paderanga</h4>
+                        <p>Administrator</p>
+                    </div>
+                    
+                    <div class="display-profile">
+                        <img src="img/136115789_a40f_2.jpg" alt="">
+                    </div>
+                    <div>
+                        
+                        <input type="file" id="profilepic" name="profilepic" />
+                        <label for="profilepic" class="btn-blue custom-file-button">UPLOAD PROFILE</label>
+                    </div>
+                </div>
+                    
+                <div class="edit-profile">
+                    <form action="">
+                    <div >
+                        <h2>EDIT PROFILE</h2>
+                        <h3>User Info</h3>
+                        
+                    </div>
+                    <!-- <fieldset> -->
+                    <!-- <legend>User Info</legend> -->
+                        <div class="grp-col" >
+                            <label for="fName">First Name</label>
+                            <input required type="text" name="fname" id="fname" value="Gary">
+                        </div>
+                        <div class="grp-col">
+                            <label for="lname">Last Name</label>
+                            <input required type="text" name="lname" id="lname" value="Paderanga">
+                        </div>
+                    
+                   
+                        <div class="grp-col">
+                            <label for="pword">Password</label>
+                            <input required type="password" name="pword" id="pword" value="Paderanga">
+                        </div>
+                        <div class="grp-col">
+                            <label for="cpword">Confirm Password</label>
+                            <input required type="password" name="cpword" id="cpword" value="Paderanga">
+                        </div>
+                    
+                        <div class="grp-col">
+                            <label for="email">Email</label>
+                            <input required type="email" name="email" id="email" value="garypaderanga@gmail.com">
+                        </div>
+                        <div>
+                            <input class="btn-blue" type="submit" value="Update Info">
+                        </div>
+                    <!-- </fieldset> -->
+                        
+                    </form>
+
+                </div>
+
+            </div>
+            
+
+
+            
+
+
+
+        </main>
+        <footer>
+            <p>
+                <!-- <a href="">Terms and Conditions Privacy</a> <br> -->
+                © 2023 Saudi Basic Industries Corporation (SABIC). All rights reserved.
+            </p>
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>

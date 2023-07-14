@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/94175543d4.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="topnav">
+            <ul>
+
+                <li>
+                    <div>
+                        <button class="openbtn" onclick="openNav()">&#9776;</button>
+                    </div>
+                    <div class="logo">
+                        <img src="/img/SABIC-LOGO_tcm1010-14323.svg" alt="" srcset="">
+                    </div>
+
+
+                </li>
+
+
+                <li>
+                    <div>
+                        <input type="search" placeholder="Search" name="" id="">
+                        <button class="btn-search" type="button"><i
+                                class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+                    </div>
+                    <div class="a-icon hide-mini">
+                        <a href="home.html"><i class="fa-sharp fa-solid fa-house"></i></a>
+                    </div>
+                    <div class=" a-icon hide-mini">
+                        <a href="news.html"><i class="fa-sharp fa-solid fa-newspaper"></i></a>
+
+                    </div>
+                    <div class=" a-icon hide-mini">
+                        <a href="notification.html"><i class="fa-solid fa-bell"></i></a>
+                    </div>
+
+                    <div class="dropdown">
+                        <a class="dropbtn">
+                            <img class="profile-thmb" src="img/136115789_a40f_2.jpg" alt="" srcset="">
+                            <p class="profile-label"><b>Gary Paderanga</b><br>Administrator</p>
+                        </a>
+                        <div class="dropdown-content">
+                            <!-- <div class="show-mini"> -->
+                            <a class="show-mini" href="home.html"><i class="fa-sharp fa-solid fa-house"></i>Home</a>
+                            <a class="show-mini" href="news.html"><i class="fa-sharp fa-solid fa-newspaper"></i>News</a>
+                            <a class="show-mini" href="notification.html"><i class="fa-solid fa-bell"></i>
+                                Notification</a>
+
+                            <!-- </div> -->
+                            <a href="profileSettings.html"><i class="fa-solid fa-gear"></i>Profile Settings</a>
+                            <a href="index.html"><i class="fa-solid fa-power-off"></i> Log Out</a>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <!-- sidepanel -->
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#"><i class="fa-solid fa-computer"></i>Computing Services</a>
+                <a href="#"><i class="fa-solid fa-business-time"></i>Busines Application</a>
+                <a href="#"><i class="fa-solid fa-headset"></i>Conferencing Services</a>
+                <a href="#"><i class="fa-solid fa-list"></i>ERP Services</a>
+                <a href="#"><i class="fa-solid fa-house"></i>Work From Home</a>
+                <hr>
+                <a href="feeback.html">Send Feeback</a>
+            </div>
+            <!-- sidepanel -->
+            <div class="feeback-from">
+                <div class="feeback-from-div">
+                    <h3>HELP US TO IMPROVE</h3>
+                    <p>Do you have a Suggestion or found some bugs?
+                        let us know in the field bellow.
+                    </p>
+                </div>
+
+                <div class="questioner">
+                    <h4>How was your experience?</h4>
+                    
+                        <input type="radio" id="radioButton1" name="options">
+                        <label for="radioButton1" class="icon">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </label>
+                    
+                        <input type="radio" id="radioButton2" name="options">
+                        <label for="radioButton2" class="icon">
+                            <i class="fa-regular fa-face-frown"></i>
+                        </label>
+                    
+                        <input type="radio" id="radioButton3" name="options">
+                        <label for="radioButton3" class="icon">
+                            <i class="fa-regular fa-face-meh"></i>
+                        </label>
+                
+
+                    <input type="radio" name="Bug" id="">
+
+                   
+                    <textarea name="" id="" cols="30" rows="7" placeholder="Describe your experience here ..."></textarea>
+
+                    <input type="radio" id="radioButton4" name="category">
+                        <label for="radioButton4" class="text"> Bugs </label>
+
+                        <input type="radio" id="radioButton5" name="category">
+                        <label for="radioButton5" class="text"> Suggestion </label>
+
+                        <input type="radio" id="radioButton6" name="category">
+                        <label for="radioButton6" class="text"> Others </label>
+
+                        <button class="btn-blue">SUBMIT</button>
+
+                </div>
+
+
+            </div>
+
+
+
+        </main>
+        <footer>
+            <p>
+                <!-- <a href="">Terms and Conditions Privacy</a> <br> -->
+                © 2023 Saudi Basic Industries Corporation (SABIC). All rights reserved.
+            </p>
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
