@@ -48,8 +48,7 @@ select {
 } */
 .loginBg {
     /* background-image: url(img/SABIClog0.png); */
-    background-image: URL(../img/SABIC-LOGO_tcm1010-14323.svg);
-
+    background-image: URL(../img/SABIC-desktop-hero-SABIC-HQ_tcm1010-30958.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
