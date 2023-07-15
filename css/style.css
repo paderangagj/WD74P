@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: montserrat;
-    src: url(/font/Montserrat-Regular.ttf);
+    src: url(font/Montserrat-Regular.ttf);
 }
 
 legend {
@@ -47,8 +47,8 @@ select {
     box-shadow: 3px 3px 3px var(--blue);
 } */
 .loginBg {
-    /* background-image: url(/img/Desktop_tcm1010-38974.jpg); */
-    background-image: url(/img/SABIC-desktop-hero-SABIC-HQ_tcm1010-30958.jpg);
+    /* background-image: url(img/Desktop_tcm1010-38974.jpg); */
+    background-image: url(img/SABIC-desktop-hero-SABIC-HQ_tcm1010-30958.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
