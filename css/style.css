@@ -662,7 +662,7 @@ main {
     flex-direction: column;
 }
 
-.feeback-from {
+.feedback-from {
     width: 400px;
     overflow: hidden;
     /* padding:30px; */
@@ -672,7 +672,7 @@ main {
     box-shadow: 3px 3px 3px #ccc;
 }
 
-.feeback-from-div {
+.feedback-from-div {
     padding: 40px 20px 0px 20px;
     background: var(--blue);
     color: white;
