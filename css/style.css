@@ -715,10 +715,10 @@ label.text {
     /* background-color: #a0a0a0; */
     color: var(--yellow);
 }
-.questioner{
+.questionnaire{
     margin: 10px 20px 30px 20px;
 }
-.questioner textarea{
+.questionnaire textarea{
     width: 100%;
     resize: vertical;
     font-size: 12px;
