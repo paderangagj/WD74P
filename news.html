@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,12 @@
     <script src="https://kit.fontawesome.com/94175543d4.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </head>
+
 <body>
     <div class="container">
         <nav class="topnav">
             <ul>
+
                 <li>
                     <div>
                         <button class="openbtn" onclick="openNav()">&#9776;</button>
@@ -19,7 +22,8 @@
                     <div class="logo">
                         <img src="img/SABIC-LOGO_tcm1010-14323.svg" alt="" srcset="">
                     </div>
-               
+                    
+
                 </li>
 
 
@@ -61,6 +65,114 @@
             </ul>
         </nav>
         <main>
+           <!-- sidepanel -->
+           <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#"><i class="fa-solid fa-computer"></i>Computing Services</a>
+            <a href="#"><i class="fa-solid fa-business-time"></i>Busines Application</a>
+            <a href="#"><i class="fa-solid fa-headset"></i>Conferencing Services</a>
+            <a href="#"><i class="fa-solid fa-list"></i>ERP Services</a>
+            <a href="#"><i class="fa-solid fa-house"></i>Work From Home</a>
+            <hr>
+            <a href="feeback.html">Send Feeback</a>
+        </div>
+        <!-- sidepanel -->
+            <div class="filter">
+
+                    <form action="">
+                        <fieldset class="filter-contanier">
+                            <legend>Filter By</legend>
+                                <div>
+                                    <label for="item1">Category</label>
+                                    <select name="item1" id="item1">
+                                        <option value="all">All</option>
+                                            <option value="Agri-Nutrients">Agri-Nutrients</option>
+                                            <option value="Careers">Careers</option>
+                                            <option value="Chemicals">Chemicals</option>
+                                            <option value="Corporate Strategy">Corporate Strategy</option>
+                                            <option value="CSR">CSR</option>
+                                            <option value="General">General</option>
+                                            <option value="Innovation">Innovation</option>
+                                            <option value="Investors">Investors</option>
+                                            <option value="Metals">Metals</option>
+                                            <option value="Plastics">Plastics</option>
+                                            <option value="Specialties">Specialties</option>
+                                            <option value="Sustainability">Sustainability</option>
+                                            <option value="TRUCIRCLE">TRUCIRCLE</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="item2">Region</label>
+                                    <select name="item2" id="item2">
+                                        <option value="all">All</option>
+                                            <option value="americas">Americas</option>
+                                            <option value="asia">Asia</option>
+                                            <option value="emea">MEA</option>
+                                            <option value="europe">Europe</option>
+                                            <option value="global">Global</option>
+                                            <option value="greaterchina">Greater China</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="item3">Country</label>
+                                    <select name="item3" id="item3">
+                                        <option value="all">All</option>
+                                            <option value="290a1e3f-2a62-e711-a975-024771460781">China</option>
+                                            <option value="310a1e3f-2a62-e711-a975-024771460781">Germany</option>
+                                            <option value="330a1e3f-2a62-e711-a975-024771460781">Netherlands</option>
+                                            <option value="360a1e3f-2a62-e711-a975-024771460781">Saudi Arabia</option>
+                                            <option value="380a1e3f-2a62-e711-a975-024771460781">United States of America</option>
+                                            <option value="480a1e3f-2a62-e711-a975-024771460781">Portugal</option>
+                                            <option value="4d0a1e3f-2a62-e711-a975-024771460781">Switzerland</option>
+                                            <option value="6a5ec07b-1b83-e711-80fc-005056857ef3">India</option>
+                                            <option value="fb31c2cd-944b-e711-81a8-06b69393ae39">Brazil</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="item4">Industry</label>
+                                    <select name="item4" id="item4">
+                                        <option value="all">All</option>
+                                            <option value="agriculture">Agriculture</option>
+                                            <option value="agri-nutrients">Agri-Nutrients</option>
+                                            <option value="automotive">Automotive</option>
+                                            <option value="building-and-construction">Building and Construction</option>
+                                            <option value="chemicals">Chemicals</option>
+                                            <option value="consumer">Consumer</option>
+                                            <option value="Consumer Goods">Consumer Goods</option>
+                                            <option value="electrical-electronic">Electrical &amp; Electronic</option>
+                                            <option value="healthcare">Hygiene and Healthcare</option>
+                                            <option value="hydrocarbon-energy">Hydrocarbon &amp; Energy</option>
+                                            <option value="industrial">Industrial</option>
+                                            <option value="mass-transportation">Mass Transportation</option>
+                                            <option value="packaging">Packaging</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="item5">Year</label>
+                                    <select name="item5" id="item5">
+                                        <option value="all">All</option>
+                                            <option value="2023">2023</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2021">2021</option>
+                                            <option value="2020">2020</option>
+                                            <option value="2019">2019</option>
+                                            <option value="2018">2018</option>
+                                            <option value="2017">2017</option>
+                                            <option value="2016">2016</option>
+                                            <option value="2015">2015</option>
+                                            <option value="2014">2014</option>
+                                            <option value="2013">2013</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <button class="search">Search</button>
+                                </div>
+                                
+                           
+                        </fieldset>
+                    </form>
+
+            </div>
             <div class="news-section">
                 <div class=>
                     <h1>Latest News</h1>
@@ -76,6 +188,7 @@
                                     pack components...
                                 </h5>
                                 <span>13/07/2023</span>
+
                             </div>
                         </div>
                     </a>
@@ -88,8 +201,11 @@
                                     reduce carbon footprint...
                                     <br>
                                     <br>
+                                    
+                                    
                                 </h5>
                                 <span>13/06/2023</span>
+
                             </div>
                         </div>
                     </a>
@@ -103,11 +219,106 @@
                                     Assembly Meeting (First Meeting)...
                                 </h5>
                                 <span>13/05/2023</span>
+
                             </div>
                         </div>
-                    </a>                                  
+                    </a>
+                    <a href="fullnews.html">
+                        <div class="news-item">
+                            <div class="news-thmb"><img src="img/Tool-Image_tcm1010-41320.jpg" alt=""></div>
+                            <div class="news-details">
+                                <h5>
+                                    SABIC launches two PP-based, intumescent FR materials well
+                                    suited for extruding and thermoforming large, complex EV battery
+                                    pack components...
+                                </h5>
+                                <span>13/07/2023</span>
+
+                            </div>
+                        </div>
+                    </a>
+                    <a href="fullnews.html">
+                        <div class="news-item">
+                            <div class="news-thmb"><img src="img/NEWPCR_tcm1010-41268.jpg" alt=""></div>
+                            <div class="news-details">
+                                <h5>
+                                    SABIC launches new PCR-based NORYL™ portfolio to help customers
+                                    reduce carbon footprint...
+                                    <br>
+                                    <br>
+                                    
+                                    
+                                </h5>
+                                <span>13/06/2023</span>
+
+                            </div>
+                        </div>
+                    </a>
+                    <a href="fullnews.html">
+                        <div class="news-item">
+                            <div class="news-thmb"><img src="img/SABIC-INVESTORS_CORPORATE_GOVERNANCE_tcm1010-2990.jpg" alt=""></div>
+                            <div class="news-details">
+                                <h5>
+                                    Saudi Basic Industries Corporation (SABIC) 
+                                    announces the results of the Extraordinary General 
+                                    Assembly Meeting (First Meeting)...
+                                </h5>
+                                <span>13/05/2023</span>
+
+                            </div>
+                        </div>
+                    </a>
+                    <a href="fullnews.html">
+                        <div class="news-item">
+                            <div class="news-thmb"><img src="img/Tool-Image_tcm1010-41320.jpg" alt=""></div>
+                            <div class="news-details">
+                                <h5>
+                                    SABIC launches two PP-based, intumescent FR materials well
+                                    suited for extruding and thermoforming large, complex EV battery
+                                    pack components...
+                                </h5>
+                                <span>13/07/2023</span>
+
+                            </div>
+                        </div>
+                    </a>
+                    <a href="fullnews.html">
+                        <div class="news-item">
+                            <div class="news-thmb"><img src="img/NEWPCR_tcm1010-41268.jpg" alt=""></div>
+                            <div class="news-details">
+                                <h5>
+                                    SABIC launches new PCR-based NORYL™ portfolio to help customers
+                                    reduce carbon footprint...
+                                    <br>
+                                    <br>
+                                    
+                                    
+                                </h5>
+                                <span>13/06/2023</span>
+
+                            </div>
+                        </div>
+                    </a>
+                    <a href="fullnews.html">
+                        <div class="news-item">
+                            <div class="news-thmb"><img src="img/SABIC-INVESTORS_CORPORATE_GOVERNANCE_tcm1010-2990.jpg" alt=""></div>
+                            <div class="news-details">
+                                <h5>
+                                    Saudi Basic Industries Corporation (SABIC) 
+                                    announces the results of the Extraordinary General 
+                                    Assembly Meeting (First Meeting)...
+                                </h5>
+                                <span>13/05/2023</span>
+
+                            </div>
+                        </div>
+                    </a>
+                    
                 </div>
             </div>
+
+
+
         </main>
         <footer>
             <p>
@@ -116,5 +327,9 @@
             </p>
         </footer>
     </div>
+
+
+
 </body>
+
 </html>
