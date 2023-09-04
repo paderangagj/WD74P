@@ -47,8 +47,8 @@ select {
     box-shadow: 3px 3px 3px var(--blue);
 } */
 .loginBg {
-    /* background-image: url(img/SABIClog0.png); */
-    background-image: URL(../img/SABIC-desktop-hero-SABIC-HQ_tcm1010-30958.jpg);
+    background-image: url(img/SABIClog0.png); 
+    /*background-image: URL(../img/SABIC-desktop-hero-SABIC-HQ_tcm1010-30958.jpg);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
